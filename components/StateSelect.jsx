@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { STATES } from "@/lib/states";
+import { STATES } from "@/lib/states.js";
 
 export default function StateSelect() {
   return (

@@ -1,13 +1,13 @@
 "use client";
 import { useState } from "react";
 import { useParams } from "next/navigation";
-import AskForm from "@/components/AskForm";
-import AnswerCard from "@/components/AnswerCard";
+import AskForm from "@/components/AskForm.jsx";
+import AnswerCard from "@/components/AnswerCard.jsx";
 
 export default function Dashboard() {
   const params = useParams();
-  const stateParam = (params?.state as string | undefined) ?? "";
-  const [answer, setAnswer] = useState<string | null>(null);
+  const stateParam = (params?.state) ?? "";
+  const [answer, setAnswer] = useState(null);
 
   return (
     <main className="max-w-2xl mx-auto py-20">

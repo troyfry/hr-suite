@@ -4,14 +4,11 @@ import { useState } from "react";
 export default function AskForm({
   state,
   onAnswer,
-}: {
-  state: string;
-  onAnswer: (text: string) => void;
 }) {
   const [question, setQuestion] = useState("");
   const [loading, setLoading] = useState(false);
 
-  async function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e) {
     e.preventDefault();
     if (!question) return;
     setLoading(true);

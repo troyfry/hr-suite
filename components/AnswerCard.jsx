@@ -1,4 +1,4 @@
-export default function AnswerCard({ text }: { text: string }) {
+export default function AnswerCard({ text }) {
   return (
     <div className="mt-6 border rounded-md p-4 bg-white shadow-sm">
       <p className="whitespace-pre-line">{text}</p>
