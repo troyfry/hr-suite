@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { STATES } from "@/lib/states.js";
+import { STATES } from '../../lib/states';
 import { useRouter } from "next/navigation";
 
 export default function SelectLocation() {
