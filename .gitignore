@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Next.js build outputs
+.next/
+out/
+
+# Vercel local config
+.vercel/
+
+# Env files
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+*.log
+.pnpm-store/
+coverage/
+
+
