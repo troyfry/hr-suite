@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
 import { useParams } from "next/navigation";
-import AskForm from '../../components/AskForm.jsx';
-import AnswerCard from '../../components/AnswerCard.jsx';
+import AskForm from '../../../components/AskForm.jsx';
+import AnswerCard from '../../../components/AnswerCard.jsx';
 
 
 export default function Dashboard() {
