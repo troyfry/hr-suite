@@ -11,6 +11,8 @@ export default function Home() {
       >
         Select Your Location
       </a>
+
+
       <footer className="mt-12 text-sm text-gray-400">
         © {new Date().getFullYear()} HR Suite MVP — Not legal advice.
       </footer>
