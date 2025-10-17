@@ -6,7 +6,9 @@
     "build": "next build",
     "start": "next start"
   },
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@headlessui/react": "^1.7.18",
     "next": "^14.2.33",
